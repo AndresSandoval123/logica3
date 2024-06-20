@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculador Factorial</title>
+  <link rel="shortcut icon" href="https://i.postimg.cc/NjQtL3Z0/N.png" type="image/x-icon">
+  <link rel="stylesheet" href="/styles.css">
 </head>
+
 <body>
-    <h1>Factorizar</h1>
-    <script src="/app.js"></script>
+  <main class="contPrincipal">
+    <div class="contedido">
+      <!-- informacion -->
+      <div class="informacion">
+        <h1>Calculador Factorial</h1>
+        <p>El factorial de n o n factorial se define en principio como el producto de todos los números enteros
+          positivos desde 1 (es decir, los números naturales) hasta n. <br> <br>Por ejemplo:
+          5! = 1 * 2 * 3 * 4 * 5 = 120. </p>
+      </div>
+      <!-- operacion -->
+      <div class="operacion">
+        <div class="j"></div>
+        <div class="titular">
+        <p>Vamos a calcular el factorial</p>
+        </div>
+        <div class="datos">
+        <label>Digita el numero
+        <input id="info">
+        </label>
+        </div>
+        <div class="boton">
+        <button id="validar"> Validar</button>
+        </div>
+      </div>
+      <div class="resultado" id="resultado"></div>
+    </div>
+  </main>
+  <script src="/app.js"></script>
 </body>
+
 </html>
